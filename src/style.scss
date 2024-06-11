@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 800px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        background-color: F3F3F3;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1), 12px 10px 20px rgba(0,0,0,0.1);
+        .img-container{
+            img{
+                height:400px;
+                width:200px;
+            }
+          
+        }
+        .card-content-container{
+            padding: 20px;
+           .card-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            .heading{
+                font-weight: bold;
+                font-size: 2em;
+            }
+            .content{
+                font-size: 25px;
+            }
+           }
+           .review-container{
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            .btn-container{
+                display: flex;
+                justify-content: space-between;
+                button{
+                    background-color: #583F9F;
+                    border: none;
+                    color: white;
+                    width: 130px;
+                    height: 40px;
+                    border-radius: 5px;
+                    font-size: 20px;
+                }
+            }
+           }
+        }
+    }
+}
